@@ -1,0 +1,7 @@
+.middles {
+  display: flex;
+  border: 1px dotted peru;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
