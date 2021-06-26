@@ -79,37 +79,32 @@ function AdminLogin() {
                     </Col>
                   </Row>
                   <Row>
-                    <center>
-                      <Col lg="10">
-                        <Input
-                          placeholder="Email"
-                          value={formikProps.values.email}
-                          onChange={formikProps.handleChange("email")}
-                          onBlur={formikProps.handleBlur("email")}
-                        />
-                        <div className="error">
-                          {formikProps.touched.email &&
-                            formikProps.errors.email}
-                        </div>
-                      </Col>
-                    </center>
+                    <Col lg="12">
+                      <Input
+                        placeholder="Email"
+                        value={formikProps.values.email}
+                        onChange={formikProps.handleChange("email")}
+                        onBlur={formikProps.handleBlur("email")}
+                      />
+                      <div className="error">
+                        {formikProps.touched.email && formikProps.errors.email}
+                      </div>
+                    </Col>
                   </Row>
                   <Row className="mt-2">
-                    <center>
-                      <Col lg="10">
-                        <Input
-                          placeholder="Password"
-                          value={formikProps.values.password}
-                          onChange={formikProps.handleChange("password")}
-                          onBlur={formikProps.handleBlur("password")}
-                          type="password"
-                        />
-                        <div className="error">
-                          {formikProps.touched.password &&
-                            formikProps.errors.password}
-                        </div>
-                      </Col>
-                    </center>
+                    <Col lg="12">
+                      <Input
+                        placeholder="Password"
+                        value={formikProps.values.password}
+                        onChange={formikProps.handleChange("password")}
+                        onBlur={formikProps.handleBlur("password")}
+                        type="password"
+                      />
+                      <div className="error">
+                        {formikProps.touched.password &&
+                          formikProps.errors.password}
+                      </div>
+                    </Col>
                   </Row>
                   <Button
                     onClick={formikProps.handleSubmit}
