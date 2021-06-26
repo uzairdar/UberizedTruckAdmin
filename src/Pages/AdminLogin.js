@@ -79,7 +79,7 @@ function AdminLogin() {
                     </Col>
                   </Row>
                   <Row>
-                    <Col lg="12">
+                    <Col lg="10">
                       <Input
                         placeholder="Email"
                         value={formikProps.values.email}
@@ -92,7 +92,7 @@ function AdminLogin() {
                     </Col>
                   </Row>
                   <Row className="mt-2">
-                    <Col lg="12">
+                    <Col lg="10">
                       <Input
                         placeholder="Password"
                         value={formikProps.values.password}
