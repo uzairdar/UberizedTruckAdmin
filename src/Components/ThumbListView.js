@@ -58,9 +58,9 @@ const ThumbListView = ({ user, isSelect, collect, check, setCheck }) => {
     user.isVerified ? "verified" : "not verified"
   );
 
-  useEffect(() => {
-    console.log("user");
-  }, []);
+  // useEffect(() => {
+  //   console.log("user");
+  // }, []);
 
   const onProceed = () => {};
   return (
